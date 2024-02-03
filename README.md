@@ -5,6 +5,14 @@ Compree is a e-commerce that use a microsservice arquiteture to ensure efficienc
 
 🛠️**This project is under development**🛠️
 
+**Is integrated with the apps:**
+
+🪐 [API orders store](https://github.com/upALX/Store-API)
+
+🪐 [API Items order](https://github.com/upALX/Order-API)
+
+🪐 [Service of orders](https://github.com/upALX/Order-API)
+
 ---
 
 ## Tech stack
