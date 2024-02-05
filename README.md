@@ -5,13 +5,15 @@ Compree is a e-commerce that use a microsservice arquiteture to ensure efficienc
 
 🛠️**This project is under development**🛠️
 
-**Is integrated with the apps:**
+**These other APIs are requirements to compose the microservice Compree:** 
 
 🪐 [API orders store](https://github.com/upALX/Store-API)
 
 🪐 [API Items order](https://github.com/upALX/Order-API)
 
 🪐 [Service Payment]()
+
+*The compree don't works without these 3 apps running in paralel*
 
 ---
 
@@ -31,6 +33,17 @@ Compree is a e-commerce that use a microsservice arquiteture to ensure efficienc
 ```
 git clone git@github.com:upALX/Compree.git
 ```
+
+**2 - Expose the images server using npx to mime an CDN that provide the images to Compree**
+```
+npx serve -l 9000 images
+```
+
+**3 - Run the Compree**
+```
+npm run dev
+```
+*This aplication needs the other 3 applications to run correcly*
 
 ## Make your mark :triangular_flag_on_post:      
 
